@@ -83,11 +83,13 @@
     width: 100px;
     color: $black;
     border: none;
-    background-color: $primary-color;
+    background-color: $white;
+    border:2px solid $primary-color;
+    cursor:pointer;
 }
 
 .contactus-button:hover {
-    background-color: $secondary-color;
+    background-color: $primary-color;
 }
 
 @media screen and (min-width: 550px) {

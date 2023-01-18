@@ -10,7 +10,7 @@ const Aboutbeyondsyntax = () => {
                 <h2>About BeyondSyntaxllc</h2>
                 <p>With over 13 years of experience in the IT industry, the founders of Beyond Syntax bring technical skill, 
                     industry insight, business experience and thought leadership to all our service engagements.</p>
-                <button>VIEW DETAILS</button>
+                <button className="aboutbeyond-button">VIEW DETAILS</button>
             </div>
         </div>
     );
