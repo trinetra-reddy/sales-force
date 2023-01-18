@@ -1,0 +1,40 @@
+@import '../../styles/variables';
+
+.whypartnerwithus-heading {
+    font-size: 26px;
+    color: $black;
+    text-align: center;
+    font-weight: 500;
+    padding: 45px 0px 0px 0px;
+}
+.whypartnerwithus-heading:after {
+    content: '';
+}
+.whypartnerwithus-heading-ul {
+    border-bottom: 2px solid $primary-color;
+    width: 220px;
+    display: block;
+    line-height: 1rem;
+}
+.whypartnerwithus-paragraph {
+    font-size: 16px;
+    color: $black;
+    text-align: center;
+    font-weight: 300;
+    padding: 15px 20px 60px 20px;
+}
+@media screen and (min-width: 768px) {
+    .whypartnerwithus-heading {
+        font-size: 36px;
+    }
+    .whypartnerwithus-paragraph {
+        font-size: 16px;
+        padding: 15px 70px 60px 70px;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+    .whypartnerwithus-paragraph {
+        padding: 15px 150px 60px 150px;
+    }
+}

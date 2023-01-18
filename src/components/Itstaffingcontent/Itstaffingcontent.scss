@@ -1,0 +1,195 @@
+@import '../../styles/variables';
+
+.itstaffingcontent {
+    margin: 0px 10px 20px 10px;
+}
+.itstaffingcontent-1 {
+    padding-top: 25px;
+}
+.itstaffingcontent-1-heading {
+    font-size: 30px;
+    color: $black;
+    text-align: center;
+    font-weight: 500;
+}
+.itstaffingcontent-1-heading:after {
+    content: '';
+}
+.itstaffingcontent-1-heading-ul {
+    border-bottom: 2px solid $primary-color;
+    width: 150px;
+    display: block;
+    line-height: 1rem;
+}
+.itstaffingcontent-1-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.itstaffingcontent-2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.itstaffingcontent-2-content-heading {
+    font-size: 26px;
+    color: $black;
+    text-align: center;
+    font-weight: 500;
+}
+.itstaffingcontent-2-content-heading:after {
+    content: '';
+}
+.itstaffingcontent-2-content-heading-ul {
+    border-bottom: 2px solid $primary-color;
+    width: 280px;
+    display: block;
+    line-height: 1rem;
+}
+.itstaffingcontent-2-content-paragraph {
+    font-size: 14px;
+    color: $black;
+    font-weight: 300;
+}
+
+.itstaffingcontent-2-image img{
+    width: 100%;
+}
+.itstaffingcontent-3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.itstaffingcontent-3-col-1 {
+    text-align: center;
+}
+.itstaffingcontent-3-col-1 img{
+    width: 40px;
+}
+.itstaffingcontent-3-col-1-heading {
+    color: $primary-color;
+    font-size: 22px;
+}
+.itstaffingcontent-3-col-1-paragraph {
+    font-size: 14px;
+    text-align: left;
+}
+.itstaffingcontent-3-col-2 {
+    text-align: center;
+}
+.itstaffingcontent-3-col-2 img{
+    width: 40px;
+}
+.itstaffingcontent-3-col-2-heading {
+    color: $primary-color;
+    font-size: 22px;
+}
+.itstaffingcontent-3-col-2-paragraph {
+    font-size: 14px;
+    text-align: left;
+}
+@media screen and (min-width: 768px) {
+    .itstaffingcontent {
+        margin: 0px 70px 0px 70px;
+    }
+    .itstaffingcontent-1-heading {
+        font-size: 36px;
+    }
+    .itstaffingcontent-1-paragraph {
+        font-size: 16px;
+    }
+    .itstaffingcontent-2 {
+        padding-top: 25px;
+        flex-direction: row;
+    }
+    .itstaffingcontent-2-content {
+        flex: 60%;
+        padding-right: 10px;
+    }
+    .itstaffingcontent-2-content-heading {
+        font-size: 30px;
+    }
+    .itstaffingcontent-2-content-paragraph {
+        font-size: 14px;
+    }
+    .itstaffingcontent-2-image {
+        flex: 40%;
+        padding-left: 10px;
+    }
+    .itstaffingcontent-2-image img{
+        width: 100%;
+    }
+    .itstaffingcontent-3 {
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+    }
+    .itstaffingcontent-3-col-1 {
+        text-align: center;
+    }
+    .itstaffingcontent-3-col-1 img{
+        width: 50px;
+    }
+    .itstaffingcontent-3-col-1-heading {
+        font-size: 28px;
+    }
+    .itstaffingcontent-3-col-1-paragraph {
+        font-size: 16px;
+        text-align: left;
+    }
+    .itstaffingcontent-3-col-2 {
+        text-align: center;
+    }
+    .itstaffingcontent-3-col-2 img{
+        width: 50px;
+    }
+    .itstaffingcontent-3-col-2-heading {
+        font-size: 28px;
+    }
+    .itstaffingcontent-3-col-2-paragraph {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .itstaffingcontent {
+        margin: 0px 150px 0px 150px;
+    }
+    .itstaffingcontent-1-heading {
+        font-size: 36px;
+    }
+    .itstaffingcontent-1-paragraph {
+        font-size: 16px;
+    }
+    .itstaffingcontent-2 {
+        padding-top: 25px;
+        flex-direction: row;
+    }
+    .itstaffingcontent-2-content {
+        flex: 60%;
+        padding-right: 10px;
+    }
+    .itstaffingcontent-2-content-heading {
+        font-size: 36px;
+    }
+    .itstaffingcontent-2-content-paragraph {
+        font-size: 16px;
+    }
+    .itstaffingcontent-2-image {
+        flex: 40%;
+        padding-left: 10px;
+    }
+    .itstaffingcontent-2-image img{
+        width: 100%;
+    }
+   
+    .itstaffingcontent-3-col-1 img{
+        width: 60px;
+    }
+    
+    .itstaffingcontent-3-col-2 img{
+        width: 60px;
+    }
+    
+}
