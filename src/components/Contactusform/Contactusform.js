@@ -1,8 +1,8 @@
 import React from "react";
 import './Contactusform.scss';
-import icon_1 from "../../images/contactusicon3.png";
-import icon_2 from "../../images/contactusicon2.png";
-import icon_3 from "../../images/contactusicon1.png";
+import homeicon from "../../images/contactUsHomeIcon.png";
+import callericon from "../../images/contactUsCallerIcon.png";
+import locationicon from "../../images/contactUsLocationIcon.png";
 
 const Contactusform = () => {
     return (
@@ -13,23 +13,23 @@ const Contactusform = () => {
                     <div className="contactus-col1-heading2">Call us NOW</div>
                 </div>
                 <div className="contactus-col1-wrpr1">
-                    <img src={icon_1} alt="icon_1" />
+                    <img src={homeicon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">BEYONDSYNTAXLLC</div>
                         <div className="contactus-col1-wrpr1-text-p">support@beyondsyntaxllc</div>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
-                    <img src={icon_2} alt="icon_1" />
+                    <img src={callericon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Phone:</div>
                         <div className="contactus-col1-wrpr1-text-p">+1(408)431-5046</div>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
-                    <img src={icon_3} alt="icon_1" />
+                    <img src={locationicon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
-                        <div className="contactus-col1-wrpr1-text-h">Adress</div>
+                        <div className="contactus-col1-wrpr1-text-h">Address</div>
                         <div className="contactus-col1-wrpr1-text-p">1138, Europena Drive,Brentwood, CA 94513.</div>
                     </div>
                 </div>
