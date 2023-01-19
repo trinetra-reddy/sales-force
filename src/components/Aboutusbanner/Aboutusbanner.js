@@ -1,21 +1,25 @@
 import React from "react";
-import './Aboutusbanner.scss';
-import bannerimage from "../../images/aboutusbannerimg.jpg";
+import "./Aboutusbanner.scss";
+import bannerimage from "../../images/aboutsusbanner.jpg";
 
 const Aboutbanner = () => {
-    return (
-        <div className="aboutusbanner">
-            <img src={bannerimage} alt="bannerimage" />
-            <div className="aboutusbanner-content">
-            <div className="aboutusbanner-heading">
-                ABOUT US
-            </div>
-            <div className="aboutusbanner-paragraph">
-              BEYONDSYNTAXLLC is an IT Services organization, dedicated to provide the best IT solutions in the areas of Staffing, data management and infrastructure management
-            </div>
-            </div>
+  return (
+    <div className="aboutusbanner">
+      <img
+        className="aboutusbanner-image"
+        src={bannerimage}
+        alt="bannerimage"
+      />
+      <div className="aboutusbanner-content">
+        <div className="aboutusbanner-heading">ABOUT US</div>
+        <div className="aboutusbanner-paragraph">
+          Fountain Tech is a innovative Salesforce solutions provider, that
+          helps companies leverage the full potential of the Salesforce platform
+          to streamline their business operations and drive growth.
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Aboutbanner;
