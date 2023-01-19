@@ -10,13 +10,13 @@ const Contactuscontent = () => {
             <div className="contactuscontent-colums">
                 <div className="contactuscontent-colum1">
                     <img src={locationicon} alt="locationicon" />
-                    <div className="contactuscontent-colum1-heading">USA ADRESS</div>
+                    <div className="contactuscontent-colum1-heading">USA ADDRESS</div>
                     <div className="contactuscontent-colum1-text">BEYONDSYNTAXLLC,1138 Europena Drive,Brentwood, CA 94513.
                     </div>
                 </div>
                 <div className="contactuscontent-colum2">
                     <img src={locationicon} alt="locationicon" />
-                    <div className="contactuscontent-colum1-heading">INDIA ADRESS</div>
+                    <div className="contactuscontent-colum1-heading">INDIA ADDRESS</div>
                     <div className="contactuscontent-colum1-text">BEYONDSYNTAXLLC.com
                         XX Hub, xxxxxx Cross Road,
                         xxxxxx street, xxxxxx,
