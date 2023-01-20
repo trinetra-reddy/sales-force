@@ -55,16 +55,13 @@
 }
 
 .ourservices-content button {
-    border: 2px solid $primary-color;
-    background:$white;
-    color: $black;
-    padding: 10px;
+    border: 1px solid $primary-color;
+    background:$primary-color;
+    color: $white;
+    padding: 14px 24px;
     font-size: 12px;
     cursor:pointer;
-}
-
-.ourservices-content button:hover {
-    background-color: $primary-color;
+    border-radius: 2.5rem;
 }
 
 @media screen and (min-width: 320px) {

@@ -47,17 +47,14 @@
     text-align: center;
 }
 .ourtech-button-wrapper button{
-    border: 2px solid $primary-color;
-    color: $black;
-    background-color:$white;
+    border: 1px solid $primary-color;
+    color: $white;
+    background-color:$primary-color;
     font-size: 16px;
-    padding: 10px 32px;
-    background: none;
+    padding: 10px 33px;
     text-align: center;
     cursor:pointer;
-}
-.ourtech-button-wrapper button:hover {
-    background-color:$primary-color;
+    border-radius: 2.5rem;
 }
 @media screen and (min-width: 425px) {
     .ourtech-backgroundwrapper img{
