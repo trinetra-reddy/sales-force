@@ -7,9 +7,10 @@ const Aboutbeyondsyntax = () => {
         <div className="aboutbeyondsyntax">
             <img src={backgroundimg} alt="backgroundimage" />
             <div className="aboutbeyondsyntax-content">
-                <h2>About BeyondSyntaxllc</h2>
-                <p>With over 13 years of experience in the IT industry, the founders of Beyond Syntax bring technical skill, 
-                    industry insight, business experience and thought leadership to all our service engagements.</p>
+                <h2>Fountain Cloud Tech</h2>
+                <p>At Fountain Tech, we understand the unique challenges that companies face in the fountain
+                     industry and we're here to help. Our team of Salesforce certified professionals are dedicated
+                      to delivering customized solutions that drive growth and streamline your business operations.</p>
                 <button className="aboutbeyond-button">VIEW DETAILS</button>
             </div>
         </div>

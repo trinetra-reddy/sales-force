@@ -10,17 +10,25 @@
 .ourservices-heading:after {
     content: '';
 }
+ .com{
+     border-bottom: 2px solid #ddd;
+     }
+.mid{
+    border-bottom:2px solid $primary-color;
 
-.ourservices-heading-ul {
-    border-bottom: 2px solid $primary-color;
-    width: 120px;
-    display: block;
-    line-height: 1rem;
 }
+
+// // .ourservices-heading-ul {
+//     border-bottom: 2px solid $primary-color;
+//     width: 120px;
+//     display: block;
+//     line-height: 1rem;
+// }
 
 .ourservices-container-main {
     display: flex;
     flex-direction: column;
+    margin-top:20px;
 }
 
 .ourservices-container {
