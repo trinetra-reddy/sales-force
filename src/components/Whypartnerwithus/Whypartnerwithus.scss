@@ -1,40 +1,39 @@
-@import '../../styles/variables';
-
+@import "../../styles/variables";
+.whypartnerwithus {
+  padding: 30px 5px;
+}
 .whypartnerwithus-heading {
-    font-size: 26px;
-    color: $black;
-    text-align: center;
-    font-weight: 500;
-    padding: 45px 0px 0px 0px;
+  font-size: 24px;
+  color: $black;
+  text-align: center;
+  font-weight: 700;
 }
 .whypartnerwithus-heading:after {
-    content: '';
+  content: "";
 }
 .whypartnerwithus-heading-ul {
-    border-bottom: 2px solid $primary-color;
-    width: 220px;
-    display: block;
-    line-height: 1rem;
+  margin-top: 0px;
+  border-top: 3px solid $primary-color;
+  width: 210px;
+  display: block;
+  line-height: 1rem;
 }
 .whypartnerwithus-paragraph {
-    font-size: 16px;
-    color: $black;
-    text-align: center;
-    font-weight: 300;
-    padding: 15px 20px 60px 20px;
+  font-size: 14px;
+  padding-top: 14px;
+  color: $black;
+  text-align: center;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
 }
 @media screen and (min-width: 768px) {
-    .whypartnerwithus-heading {
-        font-size: 36px;
-    }
-    .whypartnerwithus-paragraph {
-        font-size: 16px;
-        padding: 15px 70px 60px 70px;
-    }
-}
-@media screen and (min-width: 1200px) {
-
-    .whypartnerwithus-paragraph {
-        padding: 15px 150px 60px 150px;
-    }
+  .whypartnerwithus-paragraph {
+    font-size: 16px;
+    padding: 14px 60px 0;
+  }
+  .whypartnerwithus {
+    padding: 60px 5px;
+  }
 }
