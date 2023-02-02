@@ -1,45 +1,37 @@
 @import "../../styles/variables";
 
 .aboutusbanner {
-  position: relative;
-}
-.aboutusbanner-image {
-  width: 100%;
-  height: 60vh;
-}
-.aboutusbanner-content {
-  position: absolute;
-  top: 15%;
-  text-align: center;
-  padding: 0 5px;
+  background-image: url(../../images/aboutsusbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 16px;
 }
 .aboutusbanner-heading {
+  text-align: center;
   color: $white;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 600;
   line-height: 1.6;
   letter-spacing: 0.5px;
 }
 .aboutusbanner-paragraph {
+  text-align: center;
   margin-top: 14px;
   color: $white;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: 0.2px;
-  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .aboutusbanner-paragraph {
-    padding: 0px 60px;
     font-size: 16px;
   }
+
 }
-@media screen and (min-width: 998px) {
-  .aboutusbanner-image {
-    height: 50vh;
-  }
-  .aboutusbanner-content {
-    top: 20%;
+@media screen and (min-width: 1440px){
+  .aboutusbanner{
+    padding:60px 30px;
   }
 }
