@@ -17,10 +17,7 @@ const Contactuscontent = () => {
                 <div className="contactuscontent-colum2">
                     <img src={locationicon} alt="locationicon" />
                     <div className="contactuscontent-colum1-heading">INDIA ADDRESS</div>
-                    <div className="contactuscontent-colum1-text">BEYONDSYNTAXLLC.com
-                        XX Hub, xxxxxx Cross Road,
-                        xxxxxx street, xxxxxx,
-                        INDIA 00000
+                    <div className="contactuscontent-colum1-text">5-648,15th cross, 5th Road, Georgepet,Anantapur,Andhra Pradesh-515001.
                     </div>
                 </div>
                 <div className="contactuscontent-colum3">

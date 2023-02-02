@@ -9,13 +9,13 @@ import ourservicesimg_3 from "../../images/ourservicesimg_3.jpg";
 const Ourservices = () => {
     return (
         <div className="ourservices">
-            <div className="ourservices-heading">Our services</div>
-            <hr class="ourservices-heading-ul"></hr>
+            <div className="ourservices-heading">Ou<span className="com">r s</span><span className="mid">er</span><span className="com">vic</span>es</div>
+            <div class="ourservices-heading-ul"></div>
             <div className="ourservices-container-main">
                 <div className="ourservices-container">
                     <img src={ourservicesimg_1}  alt="ourserviceimg_1" />
                     <div className="ourservices-content">
-                        <h1>IT Staffing</h1>
+                        <h1>Salesforce CRM </h1>
                         <p>Over the past decade, the demand for quality IT candidates has grown tremendously as technology has emerged as a 
                             fundamental component to a business’s success. ,
                          </p>
@@ -25,7 +25,7 @@ const Ourservices = () => {
                 <div className="ourservices-container">
                     <img src={ourservicesimg_2}  alt="ourserviceimg_2" />
                     <div className="ourservices-content">
-                        <h1>Data & Infrastructure</h1>
+                        <h1>Web Technologies </h1>
                         <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
                             for industry leading Enterprise Technology Projects.  </p>
                         <button className="ourservices-content-btn">VIEW MORE</button>
@@ -34,7 +34,7 @@ const Ourservices = () => {
                 <div className="ourservices-container">
                     <img src={ourservicesimg_3}  alt="ourserviceimg_3" />
                     <div className="ourservices-content">
-                        <h1>Enterprise CMS</h1>
+                        <h1>Mulesoft</h1>
                         <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
                             for industry leading Enterprise Technology Projects. </p>
                         <button className="ourservices-content-btn">VIEW MORE</button>
