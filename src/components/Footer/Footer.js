@@ -1,49 +1,32 @@
 import React from "react";
-import './Footer.scss';
+import "./Footer.scss";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className="footer">
-            <div className="column-1">
-                <div className="column-1-heading">
-                    Contact Us
-                </div>
-                <div className="column-1-content">
-                    <div className="column-1-content-heading">
-                        Office address:
-                    </div>
-                    <div className="column-1-content-paragraph">
-                        Beyondsyntaxllc,
-                        t Hub, Yellandu Cross Road,
-                        Kaviraj Nagar, Khammam,
-                        Telangana 507002.
-
-                        Office: 040-40072327
-                        Email: info@beyondsyntaxllc.com
-                    </div>
-                </div>
-            </div>
-            <div className="column-2">
-                <div className="column-2-heading">
-                    Solutions  
-                </div>
-                <div className="column-2-links">
-                    <ul>
-                        <li>Overview</li>
-                        <li> Reference Architecture Solutions</li>
-                        <li>Data Management Solutions</li>
-                        <li>Cloud Solutions</li>
-                        <li>Remote Infrastructure Management</li>
+        <>
+            <div className="footer">
+                <div className="footer1">
+                    <h2 className="footer-header">Contact Us</h2>
+                    <ul className="footer-list">
+                        <li>Office Address:</li>
+                        <li className="footer-lists">5-648,15th cross,5th Road</li>
+                        <li className="footer-lists">Georgepet,Anantapur</li>
+                        <li className="footer-lists">Andhra Pradesh-515001</li>
                     </ul>
                 </div>
-            </div>
-            <div className="column-3">
-                <div className="column-3-heading">
-                    Quick Links 
+                <div className="footer1">
+                    <h1 className="footer-header">Services</h1>
+                    <ul className="footer-list">
+                        <li>Implementation</li>
+                        <li>Customization</li>
+                        <li>Integration</li>
+                        <li>Support</li>
+                    </ul>
                 </div>
-                <div className="column-3-links">
-                    <ul>
+                <div className="footer1">
+                    <h1 className="footer-header">Quick Links</h1>
+                    <ul className="footer-links">
                         <Link to="/"><li>Home</li></Link>
                         <Link to="/about-us"><li>About us</li></Link>
                         <Link to="/it-staffing"><li>IT Staffing</li></Link>
@@ -51,7 +34,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

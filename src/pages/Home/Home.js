@@ -6,13 +6,10 @@ import {
   Imagecarousel,
   Ourservices,
   AboutFountainTech,
-  Aboutbeyondsyntax,
   Whywithus,
   Howcanwehelpyou,
   Ourtechnologies,
-  Ourclients,
   TextComponent,
-  ImageTextComponent,
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import howcanwehelpimg from "../../images/howcanwehelpimg.jpg";
