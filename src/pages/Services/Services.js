@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Footer, Header, Itstaffingbanner, Itstaffingcontent, RpoMps, Weoffer } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
-import './Itstaffing.scss';
+import './Services.scss';
 
-const Itstaffing = () => {
+const Services = () => {
     return (
         <div>
             <Header />
@@ -17,4 +17,4 @@ const Itstaffing = () => {
     );
 };
 
-export default Itstaffing;
+export default Services;
