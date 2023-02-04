@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+.aboutfountaintech {
+  background-image: url(../../images/aboutbeyondimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 14px;
+}
+
+.aboutfountaintech-content h2 {
+  color: $white;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.aboutfountaintech-content p {
+  color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutfountaintech {
+    background-size: cover;
+    padding: 40px 30px;
+  }
+
+  .aboutfountaintech-content h2 {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .aboutfountaintech-content p {
+    font-size: 18px;
+    max-width: 555px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .aboutfountaintech {
+    padding: 60px 30px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Footer, Header, Imagecarousel, Ourservices , Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, TextComponent } from "../../components";
+import { Footer, Header, Imagecarousel, Ourservices ,AboutFountainTech, Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, TextComponent } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Home.scss';
 
@@ -13,7 +13,7 @@ const Home = () => {
             <Header />
             <Imagecarousel />
             <Ourservices />
-            <Aboutbeyondsyntax />
+            <AboutFountainTech />
             <Whywithus />
             <Howcanwehelpyou />
             <Ourtechnologies />
