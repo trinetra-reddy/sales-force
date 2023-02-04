@@ -1,19 +1,26 @@
-import React from 'react';
-const ImageTextComponent = (props) => {
-        return(
-            <>
-            <div className="imagetextcomponent-main">
-            <div className={`imagetextcomponent-container ${props.imgPosition}`}>
-                <img className="imagetextcomponent-img" src={props.imgPath} />
-                </div>
-                <div>
-                    <h2>{props.name}</h2>
-                <div>{props.desc}</div>
-                </div>
-                
-            </div>
-            
-            </>
-        )
-}
-export default ImageTextComponent;
+import React from "react";
+import "./ImageTextComponent.scss";
+import { Link } from "react-router-dom";
+
+const Howcanwehelpyou = (props) => {
+  return (
+    <div className={`imagetextcomponent ${props.imgposition}`}>
+       <div className={`imagetextcomponent-image ${props.imgposition}`}>
+        <img src={props.image} alt="image" />
+      </div>
+      <div className="imagetextcomponent-content">
+        <div className="imagetextcomponent-content-heading">
+          {props.heading}
+        </div>
+        <hr class="imagetextcomponent-heading-ul"></hr>
+        <div className="imagetextcomponent-content-paragraph">
+          {props.description}
+          <Link className="imagetextcomponent-redirect" to="/services">{props.view}</Link>
+        </div>
+      </div>
+     
+    </div>
+  );
+};
+
+export default Howcanwehelpyou;

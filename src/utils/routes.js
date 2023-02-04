@@ -15,7 +15,7 @@ export const routes = [{
     isExact: true
 }, {
     component: <Services />,
-    path: CONSTANTS.ROUTES.ITSTAFFING_PAGE,
+    path: CONSTANTS.ROUTES.SERVICES_PAGE,
     isExact: true
 }, {
     component: <Styleguide />,

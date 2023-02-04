@@ -4,7 +4,7 @@ export const CONSTANTS = {
         HOME_PAGE: '/',
         CONTACT_PAGE: '/contact-us',
         ABOUT_PAGE: '/about-us',
-        ITSTAFFING_PAGE: '/it-staffing',
+        SERVICES_PAGE: '/services',
         STYLEGUIDE: '/styleguide'
     },
 };
