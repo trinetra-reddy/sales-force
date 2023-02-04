@@ -1,0 +1,104 @@
+@import "../../styles/variables";
+
+.GetTouch-container {
+  background-color: $secondary-color;
+  border-radius: 4px;
+  padding: 5%;
+  margin-top: 30px;
+}
+.GetTouch-header-1 {
+  background-image: $gradientcolor-5;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.GetTouch-header-2 {
+  color: $white;
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.GetTouch-paragraph {
+  color:$color-4;
+  font-weight: 400;
+  font-size: 15px;
+  justify-content: left;
+  line-height: 1.9;
+}
+.GetTouch-form {
+  background-color: $white;
+  border-radius: 35px;
+  padding: 14px;
+  margin-top: 45px;
+  box-shadow: 0 9px 68px 0 $color-24;
+  display: inline-block;
+}
+.GetTouch-input {
+  border-radius: 25px;
+  border: 1px solid $color-25;
+  font-size: 16px;
+  outline: $primary-color;
+  line-height: 1.5;
+  width: 100%;
+  letter-spacing: 1px;
+  padding: 10px 10px 10px 40px;
+  margin-bottom: 10px;
+}
+.GetTouch-input:focus {
+  border: 1px solid $primary-color;
+}
+
+.GetTouch-button {
+  color: $white;
+  text-align: center;
+  background-image: $gradientcolor-4;
+  transition: all 500ms;
+  background-size: 200% auto;
+  border: none;
+  border-radius: 28px;
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  min-width: 160px;
+  height: 48px;
+}
+.GetTouch-button:hover {
+  cursor: pointer;
+  background-position: right center;
+  color: $white;
+}
+
+.GetTouch-image {
+  display: none;
+}
+@media screen and (min-width: 998px) {
+  .GetTouch-header-2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .GetTouch-container {
+    margin: auto;
+    padding-bottom: 2%;
+    margin-top: 60px;
+    display: flex;
+  }
+  .GetTouch-paragraph {
+    max-width: 80%;
+  }
+  .GetTouch-form {
+    display: flex;
+    height: 74px;
+    max-width: 80%;
+  }
+  .GetTouch-input {
+    margin-right: 14px;
+    padding: 22px;
+  }
+  .GetTouch-image {
+    display: block;
+  }
+}

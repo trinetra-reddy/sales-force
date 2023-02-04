@@ -9,6 +9,7 @@ import {
   Whywithus,
   ImageTextComponent,
   TextComponent,
+  GetTouch,
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import image from "../../images/howcanwehelpimg.jpg";
@@ -80,6 +81,7 @@ const Home = (props) => {
         heading="Salesforce Client Project Implantation "
         description={salesforceclientdiscription}
       />
+      {/* <GetTouch /> */}
       {/* <Ourclients /> */}
       <Footer />
     </div>
