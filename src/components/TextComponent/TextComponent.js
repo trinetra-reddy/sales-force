@@ -4,10 +4,10 @@ import "./TextComponent.scss";
 const TextComponent = (props) => {
     return (
         <>
-            <div className="whypartnerwithus">
-                <div className="whypartnerwithus-heading">{props.heading}</div>
-                <hr class="whypartnerwithus-heading-ul"></hr>
-                <div className="whypartnerwithus-paragraph">
+            <div className="textcomponent">
+                <div className="textcomponent-heading">{props.heading}</div>
+                <hr class="textcomponent-heading-ul"></hr>
+                <div className="textcomponent-paragraph">
                     {props.description}
                 </div>
             </div>

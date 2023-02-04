@@ -1,38 +1,38 @@
 @import "../../styles/variables";
-.whypartnerwithus {
+.textcomponent {
   padding: 30px 0px;
 }
-.whypartnerwithus-heading {
+.textcomponent-heading {
   font-size: 24px;
   color: $black;
   text-align: center;
   font-weight: 700;
 }
-.whypartnerwithus-heading:after {
+.textcomponent-heading:after {
   content: "";
 }
-.whypartnerwithus-heading-ul {
+.textcomponent-heading-ul {
   margin-top: 2px;
   border-top: 2px solid $primary-color;
   width: 210px;
   display: block;
   line-height: 1rem;
 }
-.whypartnerwithus-paragraph {
+.textcomponent-paragraph {
   font-size: 14px;
   padding: 16px 16px 0;
   color: $black;
-  text-align: center;
+ 
+  text-align:center;
   font-weight: 400;
-  justify-content: center;
   line-height: 1.5;
   letter-spacing: 0.2px;
 }
 @media screen and (min-width: 768px) {
-  .whypartnerwithus {
-    padding: 60px 30px;
+  .textcomponent {
+    padding: 40px 30px;
   }
-  .whypartnerwithus-paragraph {
+  .textcomponent-paragraph {
     font-size: 16px;
   }
 }
