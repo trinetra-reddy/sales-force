@@ -2,7 +2,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Imagecarousel from "./Imagecarousel/Imagecarousel";
 import Ourservices from "./Ourservices/Ourservices";
-import Aboutbeyondsyntax from "./Aboutbeyondsyntax/Aboutbeyondsyntax";
+import AboutFountainTech from "./AboutFountainTech/AboutFountainTech";
 import Whywithus from "./Whywithus/Whywithus";
 import Howcanwehelpyou from "./Howcanwehelpyou/Howcanwehelpyou";
 import Ourtechnologies from "./Ourtechnologies/Ourtechnologies";
@@ -18,4 +18,4 @@ import Contactusbanner from "./Contactusbanner/Contactusbanner";
 import Contactuscontent from "./Contactuscontent/Contactuscontent";
 import Contactusform from "./Contactusform/Contactusform";
 
-export { Header, Footer, Imagecarousel, Ourservices, Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Whypartnerwithus, Visionmission, Itstaffingbanner, Itstaffingcontent, Weoffer, RpoMps, Contactusbanner, Contactuscontent, Contactusform,};
+export { Header, Footer, Imagecarousel, Ourservices, AboutFountainTech, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Whypartnerwithus, Visionmission, Itstaffingbanner, Itstaffingcontent, Weoffer, RpoMps, Contactusbanner, Contactuscontent, Contactusform,};
