@@ -15,22 +15,22 @@ const Contactusform = () => {
                 <div className="contactus-col1-wrpr1">
                     <img src={homeicon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
-                        <div className="contactus-col1-wrpr1-text-h">BEYONDSYNTAXLLC</div>
-                        <div className="contactus-col1-wrpr1-text-p">support@beyondsyntaxllc</div>
+                        <div className="contactus-col1-wrpr1-text-h">Fountain Cloud Tech</div>
+                        <div className="contactus-col1-wrpr1-text-p">support@fountaincloudtech</div>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
                     <img src={callericon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Phone:</div>
-                        <div className="contactus-col1-wrpr1-text-p">+1(408)431-5046</div>
+                        <div className="contactus-col1-wrpr1-text-p">+91 88857 77505</div>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
                     <img src={locationicon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Address</div>
-                        <div className="contactus-col1-wrpr1-text-p">1138, Europena Drive,Brentwood, CA 94513.</div>
+                        <div className="contactus-col1-wrpr1-text-p">5-648,15th cross, 5th Road, Georgepet,Anantapur,Andhra Pradesh-515001.</div>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ const Contactusform = () => {
                     <div className="contactus-col2-input3">
                         <input
                             className="contactus-inputs"
-                            id="name"
+                            // id="name"
                             id="contactus-inputmessage"
                             placeholder="Your Message Here"
                             name="name"

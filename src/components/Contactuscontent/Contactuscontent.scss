@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .contactuscontent {
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 .contactuscontent img {
@@ -25,19 +25,18 @@
 }
 .contactuscontent-colums {
     display: flex;
-    flex-direction: column;
 }
 
-.contactuscontent-colum1-heading {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-weight: bold;
-    color: #999;
-}
-.contactuscontent-colum1-paragraph {
-    font-size: 16px;
-    color: #000;
-}
+// .contactuscontent-colum1-heading {
+//     font-size: 18px;
+//     margin-bottom: 15px;
+//     font-weight: bold;
+//     color: #999;
+// }
+// .contactuscontent-colum1-paragraph {
+//     font-size: 16px;
+//     color: #000;
+// }
 @media screen and (min-width: 456px) {
     .contactuscontent {
         margin: 20px 70px 20px 70px;
@@ -50,14 +49,13 @@
     .contactuscontent-heading {
         font-size: 36px;
     }
-    .contactuscontent-colums {
-        display: flex;
-        flex-direction: row;
+    .contactuscontent-colum1-text{
+        max-width: 100%;
     }
-    .contactuscontent-colum1  {
-        border-right: 1px solid black;
-        padding: 15px;
-    }
+    // .contactuscontent-colum1  {
+    //     border-right: 1px solid black;
+    //     padding: 15px;
+    // }
     .contactuscontent-colum2  {
         border-right: 1px solid black;
         padding: 15px;
@@ -65,22 +63,22 @@
     .contactuscontent-colum3 {
         padding: 15px;
     }
-    .contactuscontent-colum1-heading {
-        font-size: 16px;
-    }
-    .contactuscontent-colum1-paragraph {
-        font-size: 12px;
-    }
+    // .contactuscontent-colum1-heading {
+    //     font-size: 16px;
+    // }
+    // .contactuscontent-colum1-paragraph {
+    //     font-size: 12px;
+    // }
 }
 @media screen and (min-width: 1200px) {
     .contactuscontent {
         margin: 20px 150px 20px 150px;
     }
-    .contactuscontent-colum1-heading {
-        font-size: 18px;
-    }
-    .contactuscontent-colum1-paragraph {
-        font-size: 16px;
-    }
+    // .contactuscontent-colum1-heading {
+    //     font-size: 18px;
+    // }
+    // .contactuscontent-colum1-paragraph {
+    //     font-size: 16px;
+    // }
 }
 
