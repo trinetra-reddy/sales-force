@@ -1,4 +1,4 @@
-import react from'React';
+import react from 'React';
 const ImageTextComponent = () => {
        
 }
