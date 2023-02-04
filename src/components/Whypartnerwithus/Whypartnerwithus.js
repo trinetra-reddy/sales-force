@@ -11,10 +11,7 @@ const Whypartnerwithus = () => {
         implementation, customization, integration, and ongoing support. Whether
         you're looking to automate your sales, marketing or customer service
         processes, Fountain Tech has the expertise to help you achieve your
-        goals.In addition to its Salesforce capabilities, Fountain Tech also
-        leverages its deep understanding of the fountain industry to offer
-        cutting-edge fountain control systems that allows customers to centrally
-        control and monitor their fountains.
+        goals.
       </div>
     </div>
   );
