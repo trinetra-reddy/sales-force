@@ -8,7 +8,6 @@ import ImageTextComponent from "./ImageTextComponent/ImageTextComponent";
 import Ourtechnologies from "./Ourtechnologies/Ourtechnologies";
 import Ourclients from "./Ourclients/Ourclients";
 import Aboutbanner from "./Aboutusbanner/Aboutusbanner";
-
 import Visionmission from "./Visionmission/Visionmission";
 import Servicesbanner from "./Servicesbanner/Servicesbanner";
 import Itstaffingcontent from "./Itstaffingcontent/Itstaffingcontent";

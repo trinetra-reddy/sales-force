@@ -7,12 +7,21 @@ import {
   Ourservices,
   AboutFountainTech,
   Whywithus,
+<<<<<<< HEAD
   ImageTextComponent,
   TextComponent,
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import image from "../../images/howcanwehelpimg.jpg";
 import partnerimage from "../../images/whywithusimg.jpg";
+=======
+  Howcanwehelpyou,
+  Ourtechnologies,
+  TextComponent,
+} from "../../components";
+import { CONSTANTS } from "../../utils/constants";
+import howcanwehelpimg from "../../images/howcanwehelpimg.jpg";
+>>>>>>> 3a159b4afc9c2ce52ce63b71c8a7fd003f0e1055
 import "./Home.scss";
 import "../../styles/_variables.scss";
 const Home = (props) => {
@@ -72,6 +81,10 @@ const Home = (props) => {
         image={image}
         imgposition="right"
       />
+      <AboutFountainTech />
+      <Whywithus />
+      <Howcanwehelpyou />
+      <Ourtechnologies />
       <TextComponent
         heading="Salesforce Project Advisory "
         description={salesforceprojectdiscription}
