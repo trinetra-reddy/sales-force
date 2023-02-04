@@ -10,7 +10,7 @@ import Ourclients from "./Ourclients/Ourclients";
 import Aboutbanner from "./Aboutusbanner/Aboutusbanner";
 
 import Visionmission from "./Visionmission/Visionmission";
-import Itstaffingbanner from "./Itstaffingbanner/Itstaffingbanner";
+import Servicesbanner from "./Servicesbanner/Servicesbanner";
 import Itstaffingcontent from "./Itstaffingcontent/Itstaffingcontent";
 import Weoffer from "./Weoffer/Weoffer";
 import RpoMps from "./RpoMps/RpoMps";
@@ -19,4 +19,4 @@ import Contactuscontent from "./Contactuscontent/Contactuscontent";
 import Contactusform from "./Contactusform/Contactusform";
 import TextComponent from "./TextComponent/TextComponent";
 
-export { Header, Footer,TextComponent, Imagecarousel, Ourservices, AboutFountainTech, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Visionmission, Itstaffingbanner, Itstaffingcontent, Weoffer, RpoMps, Contactusbanner, Contactuscontent, Contactusform,};
+export { Header, Footer,TextComponent, Imagecarousel, Ourservices, AboutFountainTech, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Visionmission, Servicesbanner, Itstaffingcontent, Weoffer, RpoMps, Contactusbanner, Contactuscontent, Contactusform,};
