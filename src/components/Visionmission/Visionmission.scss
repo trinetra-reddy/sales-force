@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
   padding: 30px 16px;
+  margin-top:30px;
 }
 .visionmission-content {
   display: flex;
@@ -37,7 +38,7 @@
 
 @media screen and (min-width: 768px) {
   .visionmission {
-    padding: 60px 30px;
+    padding: 60px;
   }
   .visionmission-content {
     flex-direction: row;

@@ -6,10 +6,8 @@ import {
   Imagecarousel,
   Ourservices,
   AboutFountainTech,
-  Whywithus,
   ImageTextComponent,
-  TextComponent,
-  GetTouch,
+  TextComponent
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import image from "../../images/howcanwehelpimg.jpg";
