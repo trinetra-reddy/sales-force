@@ -6,6 +6,7 @@ import {
   Aboutbanner,
   ImageTextComponent,
   Visionmission,
+  GetTouch,
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import "./About.scss";
@@ -30,6 +31,7 @@ const About = () => {
         image={image}
         imgposition="right"
       />
+      <GetTouch />
       <Footer />
     </div>
   );

@@ -7,6 +7,7 @@ import {
   Ourservices,
   AboutFountainTech,
   ImageTextComponent,
+  GetTouch,
   TextComponent
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
@@ -79,7 +80,7 @@ const Home = (props) => {
         heading="Salesforce Client Project Implantation "
         description={salesforceclientdiscription}
       />
-      {/* <GetTouch /> */}
+      <GetTouch />
       {/* <Ourclients /> */}
       <Footer />
     </div>
