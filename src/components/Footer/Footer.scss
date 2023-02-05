@@ -4,29 +4,36 @@
     background-color: $primary-color;
     padding:10px 16px;
 }
-.footer-header{
-    color:$white;
+
+.footer-header {
+    color: $white;
     font-size: 24px;
     font-weight: 700;
 }
-.footer-list{
-    color:$white;
-    font-size:16px;
+
+.footer-list {
+    color: $white;
+    font-size: 16px;
 }
+
 .footer-links li {
     color: $white;
     text-decoration: none;
 }
-.footer-lists{
+
+.footer-lists {
     list-style: none;
 }
-.footer-heading1{
-    color:$white;
-    padding-left:20px;
+
+.footer-heading1 {
+    color: $white;
+    padding-left: 20px;
 }
+
 .footer-links a {
     text-decoration: none;
 }
+
 @media screen and (min-width: 768px) {
     .footer {
         display: flex;

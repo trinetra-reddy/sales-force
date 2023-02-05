@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Footer, Header, Servicesbanner, Itstaffingcontent, RpoMps, Weoffer } from "../../components";
+import { Footer, Header, Servicesbanner,} from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './Services.scss';
 
@@ -9,9 +9,6 @@ const Services = () => {
         <div>
             <Header />
             <Servicesbanner />
-            <Itstaffingcontent />
-            <Weoffer />
-            <RpoMps />
             <Footer />
         </div>
     );
