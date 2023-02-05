@@ -22,7 +22,6 @@
   font-size: 14px;
   padding: 16px 16px 0;
   color: $black;
- 
   text-align:center;
   font-weight: 400;
   line-height: 1.5;
@@ -30,7 +29,7 @@
 }
 @media screen and (min-width: 768px) {
   .textcomponent {
-    padding: 40px 30px;
+    padding: 40px 40px;
   }
   .textcomponent-paragraph {
     font-size: 16px;
