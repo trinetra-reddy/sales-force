@@ -7,7 +7,12 @@ import {
   Ourservices,
   AboutFountainTech,
   ImageTextComponent,
+<<<<<<< HEAD
+  GetTouch,
+  TextComponent
+=======
   TextComponent,
+>>>>>>> efd64644eb8f428e2a9a9b5cd64339acf8e08ac9
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import image from "../../images/howcanwehelpimg.jpg";
@@ -79,7 +84,7 @@ const Home = (props) => {
         heading="Salesforce Client Project Implantation "
         description={salesforceclientdiscription}
       />
-      {/* <GetTouch /> */}
+      <GetTouch />
       {/* <Ourclients /> */}
       <Footer />
     </div>
