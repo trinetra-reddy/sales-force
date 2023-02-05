@@ -1,6 +1,6 @@
 import React from "react";
 import "./GetTouch.scss";
-import GetTouchImage from "./GetTouch-Bg.svg";
+import GetTouchImage from "../../images/GetTouch-Bg.svg";
 const GetTouch = () => {
   return (
     <>
@@ -12,17 +12,21 @@ const GetTouch = () => {
             </h4>
             <h2 className="GetTouch-header-2">Get in Touch with us so Easy.</h2>
             <p className="GetTouch-paragraph">
-              Lorem ipsum dolor sit amet, adipisicing elit. Ratione provident
-              omnis iusto, veniam libero accusamus esse ab, enim temporibus.
+              We're committed to building long-term partnerships with our
+              clients and achieving their success.
             </p>
           </div>
           <div className="GetTouch-form">
-            <input
-              className="GetTouch-input"
-              type="text"
-              placeholder="Enter Your Email"
-            />
-            <button className="GetTouch-button">SUBSCRIBE</button>
+            <div>
+              <input
+                className="GetTouch-input"
+                type="text"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div>
+              <button className="GetTouch-button">SUBSCRIBE</button>
+            </div>
           </div>
         </div>
         <div>

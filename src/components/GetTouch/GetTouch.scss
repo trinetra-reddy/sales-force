@@ -1,16 +1,15 @@
 @import "../../styles/variables";
 
 .GetTouch-container {
-  background-color: $grey;
-  border-radius: 4px;
-  padding: 5%;
+  background-color: $white;
+  padding: 16px;
   margin-top: 30px;
 }
 .GetTouch-header-1 {
-  color:$secondary-color;
+  color: $secondary-color;
   text-align: left;
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 .GetTouch-header-2 {
@@ -20,25 +19,25 @@
   font-weight: 600;
 }
 .GetTouch-paragraph {
-  color:$secondary-color;
+  color: $secondary-color;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   justify-content: left;
-  line-height: 1.9;
- }
-  .GetTouch-form {
+  line-height: 1.7;
+}
+.GetTouch-form {
   margin-top: 45px;
 }
 .GetTouch-input {
   border-radius: 25px;
-  border: 1px solid $color-25;
+  border: 1px solid $color-2;
   font-size: 16px;
   outline: $primary-color;
   line-height: 1.5;
-  width: 100%;
   letter-spacing: 1px;
-  padding: 10px 10px 10px 40px;
+  padding: 10px;
   margin-bottom: 10px;
+  width: 90%;
 }
 .GetTouch-input:focus {
   border: 1px solid $primary-color;
@@ -48,50 +47,49 @@
   color: $white;
   text-align: center;
   background-color: $primary-color;
-  transition: all 500ms;
-  background-size: 200% auto;
   border: none;
   border-radius: 28px;
-  padding: 0px 20px;
-  font-weight: 600;
-  font-size: 12px;
+  padding: 14px 10px;
+  font-weight: 400;
+  font-size: 14px;
   letter-spacing: 1px;
   min-width: 160px;
-  height:55px;
 }
 .GetTouch-button:hover {
   cursor: pointer;
-  background-position: right center;
-  color: $white;
 }
 
 .GetTouch-image {
   display: none;
 }
-@media screen and (min-width: 998px) {
+@media screen and (min-width: 768px) {
   .GetTouch-header-2 {
     font-size: 30px;
     font-weight: 600;
   }
   .GetTouch-container {
     margin: auto;
-    padding-bottom: 2%;
-    margin-top: 60px;
-    display: flex;
+    padding: 30px 60px 0;
   }
   .GetTouch-paragraph {
     max-width: 80%;
   }
   .GetTouch-form {
     display: flex;
-    height: 74px;
-    max-width: 80%;
   }
   .GetTouch-input {
-    margin-right: 14px;
-    padding: 22px;
+    margin-right: 200px;
+    width: 90%;
   }
+}
+@media screen and (min-width: 998px) {
   .GetTouch-image {
     display: block;
+  }
+  .GetTouch-container {
+    display: flex;
+  }
+  .GetTouch-form {
+    max-width: 80%;
   }
 }
