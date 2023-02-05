@@ -2,17 +2,15 @@ import React from "react";
 import "./TextComponent.scss";
 
 const TextComponent = (props) => {
-    return (
-        <>
-            <div className="textcomponent">
-                <div className="textcomponent-heading">{props.heading}</div>
-                <hr class="textcomponent-heading-ul"></hr>
-                <div className="textcomponent-paragraph">
-                    {props.description}
-                </div>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div className="textcomponent">
+        <div className="textcomponent-heading">{props.heading}</div>
+        <hr class="textcomponent-heading-ul"></hr>
+        <div className="textcomponent-paragraph">{props.description}</div>
+      </div>
+    </>
+  );
 };
 
 export default TextComponent;
