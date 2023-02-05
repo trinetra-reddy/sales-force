@@ -16,7 +16,7 @@ const Contactusform = () => {
                     <img src={homeicon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Fountain Cloud Tech</div>
-                        <div className="contactus-col1-wrpr1-text-p">support@fountaincloudtech</div>
+                        <div className="contactus-col1-wrpr1-text-p">info@fountaincloudtech.com</div>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
