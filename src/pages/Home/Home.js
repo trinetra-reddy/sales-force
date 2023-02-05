@@ -7,7 +7,7 @@ import {
   Ourservices,
   AboutFountainTech,
   ImageTextComponent,
-  TextComponent
+  TextComponent,
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import image from "../../images/howcanwehelpimg.jpg";
@@ -16,13 +16,13 @@ import "./Home.scss";
 import "../../styles/_variables.scss";
 const Home = (props) => {
   const implementationdescription =
-    "We'll work with you to design and implement a Salesforce solution that meets your specific business needs  ";
+    "We'll work with you to design and implement a Salesforce solution that meets your specific business needs.  ";
   const customizationdescription =
-    "We'll tailor Salesforce to your unique requirements and preferences, so it works the way you want it to  ";
+    "We'll tailor Salesforce to your unique requirements and preferences, so it works the way you want it to.  ";
   const integrationdescription =
-    "We'll integrate Salesforce with other systems and platforms to streamline your workflow and improve efficiency  ";
+    "We'll integrate Salesforce with other systems and platforms to streamline your workflow and improve efficiency.  ";
   const supportdescription =
-    "We're here for you after implementation with ongoing support and maintenance to ensure that your Salesforce solution is running smoothly  ";
+    "We're here for you after implementation with ongoing support and maintenance to ensure that your Salesforce solution is running smoothly.  ";
   const whypartnerdescription = `The company offers a wide range of Salesforce services, including implementation, customization, integration, and ongoing support.Whether you're looking to automate your sales, marketing or customer service processes, Fountain Tech has the expertise to help you achieve your goals.In addition to its Salesforce capabilities, Fountain Tech also leverages its deep understanding of the fountain industry to offer cutting-edge fountain control systems that allows customers to centrally control and monitor their fountains.`;
   const salesforceprojectdiscription = `A Salesforce project advisory is a service provided by a consulting firm or individual that specializes in helping organizations implement and optimize their use of the Salesforce platform. This may include providing guidance on best practices, helping to design and configure the system to meet the organization's specific needs, and providing training and support to ensure the system is being used effectively. Additionally, a Salesforce project advisory may also help organizations with data migration, integration with other systems, and ongoing maintenance and support`;
   const salesforceclientdiscription = `Salesforce client project implementation is the process of setting up and configuring a Salesforce system for a specific client, based on their unique business requirements and objectives. `;
