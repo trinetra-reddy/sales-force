@@ -3,7 +3,6 @@
 .imagetextcomponent {
   margin-top:15px;
   display: flex;
-
   flex-direction: column-reverse;
   &.right{
     flex: column;
@@ -60,7 +59,7 @@
   .imagetextcomponent {
     margin-top:30px;
     flex-direction: row;
-    padding:0 60px;
+    padding:15px 60px;
     &.right{
       flex-direction: row-reverse;
       background-color:$grey;
