@@ -88,8 +88,6 @@
   }
   .GetTouch-container {
     display: flex;
-  }
-  .GetTouch-form {
-    max-width: 80%;
+    justify-content: space-between;
   }
 }
