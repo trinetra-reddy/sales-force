@@ -34,10 +34,10 @@ const Header = () => {
         </div>
 
         <div className="nav__link hide">
-          <Link to="/">Home</Link>
-          <Link to="/about-us">About us</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/contact-us">Contact us</Link>
+          <Link to="/" activeclassname="active">Home</Link>
+          <Link to="/about-us" activeclassname="active">About us</Link>
+          <Link to="/services" activeclassname="active">Services</Link>
+          <Link to="/contact-us" activeclassname="active">Contact us</Link>
         </div>
       </nav>
     </header>

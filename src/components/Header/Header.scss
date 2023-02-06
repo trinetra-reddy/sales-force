@@ -54,7 +54,6 @@ header {
 .hamburger.expanded .menu {
   display: none;
 }
-
 .nav__link {
   position: fixed;
   width: 100%;
@@ -64,7 +63,6 @@ header {
   background-color: $primary-color;
   text-align: left;
 }
-
 .nav__link a {
   text-decoration: none;
   color: $white;
@@ -74,9 +72,15 @@ header {
   padding-top: 30px;
   padding-left: 150px;
 }
-
 .hide {
   display: none;
+}
+.navbar__link a:hover::after{
+  width: 100%;
+  font-weight: 600;
+}
+.navbar__link .active::after  {
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
