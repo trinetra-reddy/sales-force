@@ -19,9 +19,9 @@ const Contactuscontent = () => {
         <div className="contactuscontent-column2">
           <img src={callericon} alt="locationicon" />
           <div className="contactuscontent-column-heading">PHONE NUMBER</div>
-          <div className="contactuscontent-column-text">
+          <a href="tel:8885777505" className="contactuscontent-column-text-m">
             (INDIA): +91 88857 77505
-          </div>
+          </a>
         </div>
       </div>
     </div>
