@@ -1,6 +1,6 @@
 import React from "react";
 import "./GetTouch.scss";
-import GetTouchImage from "../../images/GetTouch-Bg.svg";
+import GetTouchImage from "../../images/GetTouch-bgimg.svg";
 const GetTouch = (props) => {
   return (
     <>
