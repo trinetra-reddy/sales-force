@@ -80,7 +80,7 @@ const Home = (props) => {
         heading="Salesforce Client Project Implantation "
         description={salesforceclientdiscription}
       />
-      <GetTouch />
+      <GetTouch bgcolor="grey" />
       {/* <Ourclients /> */}
       <Footer />
     </div>
