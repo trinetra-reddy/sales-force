@@ -1,10 +1,11 @@
 @import "../../styles/variables";
 
 .imagetextcomponent {
-  margin-top:15px;
+  margin-top: 15px;
   display: flex;
+  align-items: center;
   flex-direction: column-reverse;
-  &.right{
+  &.right {
     flex: column;
   }
 }
@@ -42,7 +43,7 @@
   letter-spacing: 0.2px;
   padding: 16px;
 }
-.imagetextcomponent-redirect{
+.imagetextcomponent-redirect {
   text-decoration: none;
   color: $primary-color;
 }
@@ -57,12 +58,12 @@
 
 @media screen and (min-width: 768px) {
   .imagetextcomponent {
-    margin-top:30px;
+    margin-top: 30px;
     flex-direction: row;
-    padding:15px 60px;
-    &.right{
+    padding: 15px 40px;
+    &.right {
       flex-direction: row-reverse;
-      background-color:$grey;
+      background-color: $grey;
     }
   }
 
@@ -77,9 +78,9 @@
 
   .imagetextcomponent-image {
     padding-right: 20px;
-    &.right{
-      padding-right:0px;
-      padding-left:20px;
+    &.right {
+      padding-right: 0px;
+      padding-left: 20px;
     }
   }
   .imagetextcomponent-image img {

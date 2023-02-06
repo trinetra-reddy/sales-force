@@ -1,15 +1,12 @@
 import React from "react";
 import "./GetTouch.scss";
-import GetTouchImage from "../../images/GetTouch-Bg.svg";
-const GetTouch = () => {
+import GetTouchImage from "../../images/GetTouch-bgimg.svg";
+const GetTouch = (props) => {
   return (
     <>
-      <div className="GetTouch-container">
+      <div className={`GetTouch-container ${props.bgcolor}`}>
         <div>
           <div className="GetTouch-text">
-            <h4 className="GetTouch-header-1">
-              CONTACT US NOW IF YOU HAVE ANY QUESTION
-            </h4>
             <h2 className="GetTouch-header-2">Get in Touch with us so Easy.</h2>
             <p className="GetTouch-paragraph">
               We're committed to building long-term partnerships with our
