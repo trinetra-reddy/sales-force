@@ -4,6 +4,7 @@ import {
   Footer,
   Header,
   ImageTextComponent,
+  GetTouch,
   Servicesbanner,
   TextComponent,
 } from "../../components";
@@ -48,6 +49,7 @@ const Services = (props) => {
         "
         description={IntegrateDescription}
       />
+      <GetTouch bgcolor="grey" />
       <Footer />
     </div>
   );
