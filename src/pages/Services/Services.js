@@ -16,7 +16,7 @@ const Services = (props) => {
   const LightingDescription =
     "Salesforce Lightning is a user interface framework that allows for the development of custom components and interfaces, these services include developing lightning components, customizing lightning pages, and building custom lightning apps.";
   const ApexDescription =
-    ": Apex is a proprietary programming language provided by Salesforce, it allows to build robust back-end logic, triggers and Web Services. Visualforce is a framework that allows building custom pages and components on Salesforce platform. These services include developing custom Apex and Visualforce code to extend the functionality of the system.";
+    "Apex is a proprietary programming language provided by Salesforce, it allows to build robust back-end logic, triggers and Web Services. Visualforce is a framework that allows building custom pages and components on Salesforce platform. These services include developing custom Apex and Visualforce code to extend the functionality of the system.";
   const SupportDescription =
     "These services include providing ongoing support and maintenance to ensure the system is running smoothly and addressing any issues that may arise.";
   const IntegrateDescription =
