@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contactuscontent.scss";
 import callericon from "../../images/contactUsCallerIcon.png";
-import locationicon from "../../images/contactUsLocationIcon.png";
+import locationicon from "../../images/contactUsLocationIcon1.png";
 const Contactuscontent = () => {
   return (
     <div className="contactuscontent">
