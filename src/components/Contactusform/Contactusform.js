@@ -16,14 +16,14 @@ const Contactusform = () => {
                     <img src={homeicon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Fountain Cloud Tech</div>
-                        <div className="contactus-col1-wrpr1-text-p">info@fountaincloudtech.com</div>
+                        <a href="mailto:info@fountaincloudtech.com" className="contactus-col1-wrpr1-text-p1">info@fountaincloudtech.com</a>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
                     <img src={callericon} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Phone:</div>
-                        <div className="contactus-col1-wrpr1-text-p">+91 88857 77505</div>
+                        <a href="tel:8885777505" className="contactus-col1-wrpr1-text-p1">+91 88857 77505</a>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
