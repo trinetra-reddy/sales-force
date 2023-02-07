@@ -11,34 +11,58 @@
   font-weight: 700;
 }
 
-.footer-list {
+.footer-list li{
   color: $white;
   font-size: 16px;
 }
-
+.footer-list a{
+  text-decoration: none;
+}
+.footer-list a:hover{
+  text-decoration: underline;
+  text-decoration-color:white;
+}
 .footer-links li {
   color: $white;
   text-decoration: none;
+  padding-bottom:15px;
 }
-
-.footer-lists {
-  list-style: none;
+.footer-links a:hover{
+  text-decoration: underline;
+  text-decoration-color:white;
 }
-
-.footer-heading1 {
-  color: $white;
-  padding-left: 20px;
-}
-
 .footer-links a {
   text-decoration: none;
 }
-
+.footer-lists{
+  list-style:none;
+}
+.footer-mail-contact-details li{
+  color:$white;
+}
+.footer-mail-contact-details a{
+  text-decoration: none;
+}
+.footer-mail-contact-details a:hover{
+  text-decoration: underline;
+}
+.footer-details{
+  color:$white;
+}
+.footer-mail-contact-p{
+  color:$white;
+  padding-left:10px;
+}
+@media screen and (min-width:375px){
+  .footer-mail-contact-details{
+    display:flex;
+    color:$white;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer {
     display: flex;
     justify-content: space-between;
     padding: 30px 60px;
-    margin-top: 30px;
   }
 }
