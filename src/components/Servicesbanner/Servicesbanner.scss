@@ -10,6 +10,8 @@
   font-size: 44px;
   color: $white;
   font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
 }
 .Servicesbanner-main p {
   margin-top: -10px;
@@ -17,6 +19,8 @@
   font-weight: 400px;
   text-align: center;
   color: $white;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
 }
 @media screen and (min-width: 768px) {
   .Servicesbanner-main {

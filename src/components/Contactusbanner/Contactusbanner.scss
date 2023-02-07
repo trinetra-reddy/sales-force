@@ -6,12 +6,15 @@
   padding: 50px 16px;
 }
 .contactusbanner-heading {
-  font-size: 34px;
+  font-size: 40px;
   text-align: center;
   color: $white;
   font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
 }
 .contactusbanner-paragraph {
+  margin-top:-10px;
   font-size: 14px;
   font-weight: 400;
   color: $white;

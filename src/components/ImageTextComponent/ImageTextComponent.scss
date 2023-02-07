@@ -20,6 +20,8 @@
   font-weight: 700;
   text-align: center;
   color: $black;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
 }
 .imagetextcomponent-heading:after {
   content: "";
@@ -28,7 +30,7 @@
 .imagetextcomponent-heading-ul {
   margin-top: 2px;
   border-bottom: 2px solid $primary-color;
-  width: 210px;
+  width: 150px;
   display: block;
   line-height: 1rem;
 }

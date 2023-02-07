@@ -65,7 +65,9 @@
   background-color: $white;
   border: 1px solid $color-2;
   border-radius: 5px;
-  width: 100%;
+  width: 95%;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
   height: 40px;
   outline: $primary-color;
   margin-bottom: 15px;
@@ -91,15 +93,20 @@
   font-size: 12px;
   font-weight: 400;
   height: 40px;
-  width: 100px;
+  width: 120px;
   color: $white;
   border: none;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
   background-color: $primary-color;
   border: 1px solid $primary-color;
   cursor: pointer;
   border-radius: 2.5rem;
 }
 @media screen and (min-width: 550px) {
+  .contactus-inputs {
+    width:100%;
+  }
   .contactus-col2-input2 {
     flex-direction: row;
   }

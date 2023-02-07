@@ -18,7 +18,8 @@
   font-weight: 400;
   font-size: 14px;
   justify-content: left;
-  line-height: 1.7;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
 }
 .GetTouch-form {
   margin-top: 45px;
@@ -29,8 +30,8 @@
   font-size: 16px;
   outline: $primary-color;
   line-height: 1.5;
-  letter-spacing: 1px;
-  padding: 10px;
+  letter-spacing: 0.2px;
+  padding: 10px 10px 10px 14px;
   margin-bottom: 10px;
   width: 90%;
 }
@@ -47,7 +48,8 @@
   padding: 14px 10px;
   font-weight: 400;
   font-size: 14px;
-  letter-spacing: 1px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
   min-width: 160px;
 }
 .GetTouch-button:hover {
