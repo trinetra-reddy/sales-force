@@ -75,10 +75,6 @@ header {
 .hide {
   display: none;
 }
-.navbar__link a:hover::after{
-  width: 100%;
-  font-weight: 600;
-}
 .navbar__link .active::after  {
   width: 100%;
 }
