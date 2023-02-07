@@ -25,6 +25,7 @@
 }
 .contactus-inputs{
   padding-left:10px;
+  
 }
 
 .contactus-col1-wrpr1 {
@@ -58,6 +59,7 @@
 
 .contactus-col2 {
   flex: 70%;
+
 }
 
 .contactus-col2-input {
@@ -66,7 +68,7 @@
 
 .contactus-inputs {
   background-color: $white;
-  border: 1px solid $black;
+  border:none;
   border-radius: 3px;
   width: 100%;
   height: 40px;
