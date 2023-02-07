@@ -23,9 +23,6 @@
   font-weight: 700;
   padding-bottom: 10px;
 }
-.contactus-inputs{
-  padding-left:10px;
-}
 
 .contactus-col1-wrpr1 {
   display: flex;
@@ -50,10 +47,9 @@
 .contactus-col1-wrpr1-text-p {
   font-size: 16px;
   font-weight: 500;
-  
 }
-.contactus-col1-wrpr1-text-p1{
-  color:$primary-color;
+.contactus-col1-wrpr1-text-p1 {
+  color: $primary-color;
 }
 
 .contactus-col2 {
@@ -66,12 +62,13 @@
 
 .contactus-inputs {
   background-color: $white;
-  border: 1px solid $black;
-  border-radius: 3px;
+  border: 1px solid $color-2;
+  border-radius: 5px;
   width: 100%;
   height: 40px;
   outline: $primary-color;
   margin-bottom: 15px;
+  padding-left: 10px;
 }
 .contactus-inputs:focus {
   border: 1px solid $primary-color;
