@@ -12,4 +12,5 @@ import Contactusform from "./Contactusform/Contactusform";
 import TextComponent from "./TextComponent/TextComponent";
 import GetTouch from "./GetTouch/GetTouch";
 import ImageTextComponent from "./ImageTextComponent/ImageTextComponent";
-export { Header, Footer, Imagecarousel, Ourservices,AboutFountainTech,Aboutbanner, Visionmission,Contactusbanner, Contactuscontent, Contactusform,TextComponent,Servicesbanner,GetTouch,ImageTextComponent};
+import Locations from "./Locations/Locations";
+export { Header, Footer, Imagecarousel, Ourservices,AboutFountainTech,Aboutbanner, Visionmission,Contactusbanner, Contactuscontent, Contactusform,TextComponent,Servicesbanner,GetTouch,ImageTextComponent,Locations};
