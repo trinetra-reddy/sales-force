@@ -8,7 +8,7 @@
   width: 50px;
 }
 .contactuscontent-heading {
-  font-size: 28px;
+  font-size: 24px;
   color: #000;
   text-align: center;
   font-weight: 500;
@@ -18,10 +18,10 @@
 }
 .contactuscontent-heading-ul {
   border-bottom: 2px solid $primary-color;
-  width: 150px;
+  width: 110px;
   display: block;
   line-height: 1rem;
-  margin-top: 0px;
+  margin-top: -2px;
 }
 .contactuscontent-columns {
   margin-top: 18px;
@@ -49,10 +49,8 @@
   .contactuscontent {
     padding: 60px;
   }
-  .contactuscontent-column1 {
-  }
   .contactuscontent-heading {
-    font-size: 36px;
+    font-size: 28px;
   }
   .contactuscontent-columns {
     flex-direction: row;
