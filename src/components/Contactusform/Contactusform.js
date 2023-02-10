@@ -40,7 +40,7 @@ const Contactusform = () => {
                     id="fs-frm"
                     name="simple-contact-form"
                     acceptCharset="utf-8"
-                    action="https://formspree.io/f/xlevpvdb"
+                    action="https://formspree.io/f/mqkoplkr"
                     method="post"
                 >
                     <div className="contactus-col2-input1">
