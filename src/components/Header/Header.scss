@@ -79,10 +79,15 @@ header {
 .hide {
   display: none;
 }
-.navbar__link .active::after  {
+.navbar__link .active {
   width: 100%;
 }
-
+.nav__link a {
+  border-bottom: 1px solid transparent;
+}
+.nav__link .active {
+  border-color: $white;
+}
 @media screen and (min-width: 768px) {
   .fountain-logo {
     padding-left: 60px;
