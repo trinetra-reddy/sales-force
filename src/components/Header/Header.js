@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Header.scss";
 import menu from "../../images/icon-menu.png";
 import close from "../../images/icon-close.png";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const onToggleclick = () => {
@@ -35,9 +36,9 @@ const Header = () => {
 
         <div className="nav__link hide">
           <Link to="/" activeclassname="active">Home</Link>
-          <Link to="/about-us" activeclassname="active">About us</Link>
-          <Link to="/services" activeclassname="active">Services</Link>
-          <Link to="/contact-us" activeclassname="active">Contact us</Link>
+          <NavLink to="/about-us" activeclassname="active">About us</NavLink>
+          <NavLink to="/services" activeclassname="active">Services</NavLink>
+          <NavLink to="/contact-us" activeclassname="active">Contact us</NavLink>
         </div>
       </nav>
     </header>
