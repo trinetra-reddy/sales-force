@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import {
   Footer,
   Header,
-  ImageTextComponent,
   GetTouch,
   Servicesbanner,
   TextComponent,
+  CardComponent,
 } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import "./Services.scss";
+import icon from "../../images/contactUsHomeIcon.png";
 
 const Services = (props) => {
   const AppDevDescription =
@@ -27,28 +28,35 @@ const Services = (props) => {
     <div>
       <Header />
       <Servicesbanner />
-      <TextComponent
-        heading="App Development"
-        description={AppDevDescription}
-      />
-      <TextComponent
-        heading="Lightning Development"
-        description={LightingDescription}
-      />
-      <TextComponent
-        heading="Apex and Visualforce Development"
-        description={ApexDescription}
-      />
-      <TextComponent
-        heading="Support and Maintenance"
-        description={SupportDescription}
-      />
-      <TextComponent
-        heading="
+      <div className="Servicecards">
+        <CardComponent
+          icon={icon}
+          heading="Lightning Development"
+          description={LightingDescription}
+        />
+        <CardComponent
+          icon={icon}
+          heading="Apex and Visualforce Development"
+          description={ApexDescription}
+        />
+        <CardComponent
+          icon={icon}
+          heading="Support and Maintenance"
+          description={SupportDescription}
+        />
+        <CardComponent
+          icon={icon}
+          heading="
         Integrate with other systems 
         "
-        description={IntegrateDescription}
-      />
+          description={IntegrateDescription}
+        />
+        <CardComponent
+          icon={icon}
+          heading="App Development"
+          description={AppDevDescription}
+        />
+      </div>
       <GetTouch bgcolor="grey" />
       <Footer />
     </div>

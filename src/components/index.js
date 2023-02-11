@@ -13,4 +13,5 @@ import TextComponent from "./TextComponent/TextComponent";
 import GetTouch from "./GetTouch/GetTouch";
 import ImageTextComponent from "./ImageTextComponent/ImageTextComponent";
 import Locations from "./Locations/Locations";
-export { Header, Footer, Imagecarousel, Ourservices,AboutFountainTech,Aboutbanner, Visionmission,Contactusbanner, Contactuscontent, Contactusform,TextComponent,Servicesbanner,GetTouch,ImageTextComponent,Locations};
+import CardComponent from "./CardComponent/CardComponent";
+export { Header, Footer, Imagecarousel, Ourservices,AboutFountainTech,Aboutbanner, Visionmission,Contactusbanner, Contactuscontent, Contactusform,TextComponent,Servicesbanner,GetTouch,ImageTextComponent,Locations,CardComponent};

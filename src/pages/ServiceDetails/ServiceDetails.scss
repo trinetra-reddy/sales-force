@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+
+.ServiceDetails-main {
+  padding: 30px 16px;
+}
+.ServiceDetails-heading {
+  font-size: 24px;
+  color: $black;
+  text-align: center;
+  font-weight: 700;
+}
+.ServiceDetails-description {
+  font-size: 14px;
+  color: $black;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+.ServiceDetails-heading-ul {
+  margin-top: -8px;
+  border-top: 2px solid $primary-color;
+  width: 210px;
+  display: block;
+  line-height: 1rem;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .ServiceDetails-main {
+    padding: 30px 60px;
+  }
+  .ServiceDetails-description {
+    font-size: 16px;
+  }
+}

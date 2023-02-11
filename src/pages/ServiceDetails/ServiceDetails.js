@@ -25,11 +25,12 @@ const ServiceDetails = (props) => {
     <div>
       <Header />
       <Servicesbanner />
-      <div>
-        <h1>
+      <div className="ServiceDetails-main">
+        <h1 className="ServiceDetails-heading">
           {selectedService.title}
         </h1>
-        <p>
+        <hr class="ServiceDetails-heading-ul"></hr>
+        <p className="ServiceDetails-description">
           {selectedService.shortDesc}
         </p>
       </div>

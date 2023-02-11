@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+  .Servicecards {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 998px) {
+  .Servicecards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
