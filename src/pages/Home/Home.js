@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, {useEffect} from "react";
 import {
   Footer,
   Header,
@@ -10,12 +9,23 @@ import {
   GetTouch,
   TextComponent
 } from "../../components";
-import { CONSTANTS } from "../../utils/constants";
 import image from "../../images/howcanwehelpimg.jpg";
+import implementation from "../../images/implementation.jpg";
+import customization from "../../images/customization.jpg";
+import integration from "../../images/integration.jpg";
+import howCanHelp from "../../images/how-can-help.jpg";
+
 import partnerimage from "../../images/whywithusimg.jpg";
 import "./Home.scss";
 import "../../styles/_variables.scss";
 const Home = (props) => {
+  useEffect(()=>{
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  },[]);
+
   const implementationdescription =
     "We'll work with you to design and implement a Salesforce solution that meets your specific business needs.  ";
   const customizationdescription =
@@ -37,20 +47,20 @@ const Home = (props) => {
       <ImageTextComponent
         heading="Implementation"
         description={implementationdescription}
-        image={image}
+        image={implementation}
         view="viewmore"
       />
       <ImageTextComponent
         heading="Customization"
         description={customizationdescription}
-        image={image}
+        image={customization}
         imgposition="right"
         view="viewmore"
       />
       <ImageTextComponent
         heading="Integration"
         description={integrationdescription}
-        image={image}
+        image={integration}
         view="viewmore"
       />
       <ImageTextComponent
@@ -69,7 +79,7 @@ const Home = (props) => {
       <ImageTextComponent
         heading="How can we help you?"
         description={helpyoudescription}
-        image={image}
+        image={howCanHelp}
         imgposition="right"
       />
       <TextComponent

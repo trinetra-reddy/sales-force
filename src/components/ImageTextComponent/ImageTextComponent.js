@@ -12,7 +12,7 @@ const Howcanwehelpyou = (props) => {
         <div className="imagetextcomponent-content-heading">
           {props.heading}
         </div>
-        <hr class="imagetextcomponent-heading-ul"></hr>
+        <hr className="imagetextcomponent-heading-ul"></hr>
         <div className="imagetextcomponent-content-paragraph">
           {props.description}
           <Link className="imagetextcomponent-redirect" to="/services">

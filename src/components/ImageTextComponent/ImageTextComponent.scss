@@ -56,13 +56,15 @@
 
 .imagetextcomponent-image img {
   width: 100%;
+  border-radius: 5px;
+  border: 1px solid $primary-color;
 }
 
 @media screen and (min-width: 768px) {
   .imagetextcomponent {
     margin-top: 30px;
     flex-direction: row;
-    padding: 15px 40px;
+    padding: 30px 40px;
     &.right {
       flex-direction: row-reverse;
       background-color: $grey;
@@ -84,8 +86,5 @@
       padding-right: 0px;
       padding-left: 20px;
     }
-  }
-  .imagetextcomponent-image img {
-    height: 300px;
   }
 }

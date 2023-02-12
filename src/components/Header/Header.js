@@ -21,10 +21,9 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar">
-        {/* <Link to="/" className="logo">
-          <img src={Logo} alt="Logo" />
-        </Link> */}
-        <div className="fountain-logo">Fountain Cloud Tech</div>
+        <Link to="/" className="logo">
+          <div className="fountain-logo">Fountain Cloud Tech</div>
+        </Link>
         <div className="hamburger" onClick={onToggleclick}>
           <div className="menu">
             <img src={menu} className="menu" alt="hamburger" />

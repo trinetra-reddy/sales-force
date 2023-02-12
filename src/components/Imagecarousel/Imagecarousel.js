@@ -4,8 +4,8 @@ import { Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Imagecarousel.scss';
 import image_1 from "../../images/imagecarouselimg1.jpg";
-import image_2 from "../../images/imagecarouselimg1.jpg";
-import image_3 from "../../images/imagecarouselimg1.jpg";
+import image_2 from "../../images/imagecarouselimg2.jpg";
+import image_3 from "../../images/imagecarouselimg3.jpg";
 
 const Imagecarousel = () => {
     return (

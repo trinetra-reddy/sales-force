@@ -6,7 +6,7 @@ const TextComponent = (props) => {
     <>
       <div className="textcomponent">
         <div className="textcomponent-heading">{props.heading}</div>
-        <hr class="textcomponent-heading-ul"></hr>
+        <hr className="textcomponent-heading-ul"></hr>
         <div className="textcomponent-paragraph">{props.description}</div>
       </div>
     </>

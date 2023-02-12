@@ -6,17 +6,22 @@ import {
   GetTouch,
   Servicesbanner,
 } from "../../components";
-import {Services} from "../../utils/services";
+import {ServicesList} from "../../utils/services";
 
 import "./ServiceDetails.scss";
 
 
 const ServiceDetails = (props) => { 
+  
     let { id } = useParams();
     const [selectedService, setSelectedService] = useState({});
     useEffect(() => {
-      const service = Services.find(val => val.id == id);
-      console.log('service:', service);
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      
+      const service = ServicesList.find(val => val.id == id);
       if(service) {
         setSelectedService(service);
       }
@@ -29,10 +34,12 @@ const ServiceDetails = (props) => {
         <h1 className="ServiceDetails-heading">
           {selectedService.title}
         </h1>
-        <hr class="ServiceDetails-heading-ul"></hr>
-        <p className="ServiceDetails-description">
-          {selectedService.shortDesc}
-        </p>
+        <hr className="ServiceDetails-heading-ul"></hr>
+        {selectedService.description && selectedService.description.map((val, index) => (
+          <p className="ServiceDetails-description" key={index}>
+            {val}
+          </p>
+        ))}
       </div>
       <GetTouch bgcolor="grey" />
       <Footer />

@@ -4,6 +4,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 25px 14px 40px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .Servicesbanner-heading {
   text-align: center;

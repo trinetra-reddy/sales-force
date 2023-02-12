@@ -6,7 +6,7 @@ const Contactuscontent = () => {
   return (
     <div className="contactuscontent">
       <div className="contactuscontent-heading">CONTACT US</div>
-      <hr class="contactuscontent-heading-ul"></hr>
+      <hr className="contactuscontent-heading-ul"></hr>
       <div className="contactuscontent-columns">
         <div className="contactuscontent-column1">
           <img src={locationicon} alt="locationicon" />
