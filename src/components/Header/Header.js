@@ -17,7 +17,7 @@ const Header = () => {
         hamburger.classList.add("expanded");
       }
     }
-  };
+  }
   return (
     <header>
       <nav className="navbar">
