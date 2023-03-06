@@ -2,7 +2,7 @@ import React from "react";
 import "./ImageTextComponent.scss";
 import { Link } from "react-router-dom";
 
-const Howcanwehelpyou = (props) => {
+const ImageTextComponent = (props) => {
   return (
     <div className={`imagetextcomponent ${props.imgposition}`}>
       <div className="imagetextcomponent-image">
@@ -24,4 +24,4 @@ const Howcanwehelpyou = (props) => {
   );
 };
 
-export default Howcanwehelpyou;
+export default ImageTextComponent;
